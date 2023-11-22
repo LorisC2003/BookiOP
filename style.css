@@ -13,6 +13,10 @@
     color: var(--main-color);
 }
 
+.logo-loupe {
+    color: white;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -56,6 +60,112 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+ul {
+    list-style-type: none;
+}
+
+/****** Header ***********/
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.logo-booki {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 5px;
+}
+
+.header-btn {
+    font-size: 14px;
+    background-color: white;
+    padding-top: 9px;
+    margin-top: 10px;
+    margin-left: 3em;
+    border: none;
+}
+
+.header-btn:hover {
+    color: var(--main-color);
+    border-top: 1px solid var(--main-color);
+}
+
+.search-bar {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    background-color: #F2F2F2;
+    padding: 11px 15px 10px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#search-place {
+    padding: 11px;
+    background-color: white;
+    border-top: #F2F2F2 1.5px solid;
+    border-bottom: #F2F2F2 1.5px solid;
+    border-left: none;
+    border-right: none;
+    margin-right: -4px;
+    font-weight: bolder;
+}
+
+.search-btn{
+    background-color: var(--main-color);
+    border: var(--main-color) 1px solid;
+    color: white;
+    padding: 11px 10px 11px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logo-search-btn {
+    display: none;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+}
+
+.filters-btn {
+    margin-inline-start: 20px;
+    padding: 12px;
+    background-color: white;
+    border: solid 2px #D9D9D9;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+.filters-btn:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.info-icon {
+    border : 1px #D9D9D9 solid;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
 }
 
 /****** Hebergements And Populaires ***********/
