@@ -27,6 +27,11 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    margin-bottom: -10px;
+}
+
+h1 {
+    font-size: 22px;
 }
 
 a {
@@ -169,9 +174,11 @@ ul {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .hebergements-and-populaires section {
@@ -182,8 +189,65 @@ ul {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
+}
+
+.hebergements-title {
+    display: flex;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hebergements-cards .card-content {
+    width: 31%;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-body {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+.hebergements-subtitle {
+    align-items: flex-end;
+    margin-bottom: 0px;
+    margin-top: 33px;
 }
 
 /****** Populaires ***********/
