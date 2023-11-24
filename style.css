@@ -30,7 +30,7 @@ body {
     margin-bottom: -10px;
 }
 
-h1 {
+info-group h1 {
     font-size: 22px;
 }
 
@@ -55,10 +55,6 @@ a {
     object-fit: cover;
 }
 
-.card-title {
-    font-size: 16px;
-}
-
 .euro {
     font-weight: 700;
 }
@@ -76,7 +72,7 @@ ul {
 .header-navbar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3em;
+    margin-bottom: 48px;
 }
 
 .logo-booki {
@@ -90,7 +86,7 @@ ul {
     background-color: white;
     padding-top: 9px;
     margin-top: 10px;
-    margin-left: 3em;
+    margin-left: 48px;
     border: none;
 }
 
@@ -100,8 +96,8 @@ ul {
 }
 
 .search-bar {
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 32px;
+    margin-top: 32px;
     display: flex;
     align-items: center;
 }
@@ -165,12 +161,12 @@ ul {
 .info-icon {
     border : 1px #D9D9D9 solid;
     border-radius: 50%;
-    height: 1em;
-    width: 1em;
+    height: 16px;
+    width: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.5em;
+    margin-right: 8px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -182,7 +178,6 @@ ul {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -190,8 +185,9 @@ ul {
 
 /****** Hebergements ***********/
 
-.hebergements {
+ #hebergements {
     width: 65%;
+    background-color: #F2F2F2;
 }
 
 .hebergements-title {
@@ -202,6 +198,10 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.hebergements-cards h3 {
+    font-size: 16px;
 }
 
 .hebergements-cards .card-content {
@@ -253,6 +253,7 @@ ul {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    background-color: #F2F2F2;
 }
 
 .populaires-title {
@@ -297,7 +298,7 @@ ul {
 
 /******** Activités ***********/
 
-.activites {
+#activites {
     border-radius: 20px;
     padding: 30px;
 }
@@ -358,9 +359,9 @@ footer {
 }
 
 .footer-list-title {
-    font-size: 1.17em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     font-weight: bold
 }
 
@@ -377,7 +378,7 @@ footer {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
@@ -425,12 +426,14 @@ footer {
         margin: 0;
     }
 
-    h1 {
+    .info-group h1 {
         font-size: 25px;
     }
 
-    p {
+    .info-group p {
        font-size: 18px;
+        width: 100%;
+        margin-right: 15px;
     }
 
     .header-navbar {
@@ -557,7 +560,7 @@ footer {
         margin-top: 10px;
     }
 
-    .hebergements {
+    #hebergements {
         background-color: white;
     }
 
